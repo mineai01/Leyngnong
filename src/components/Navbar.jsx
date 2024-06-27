@@ -21,6 +21,9 @@ function Navbar() {
             <li>
               <a href="#">about</a>
             </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
           </ul>
         </nav>
       </div>

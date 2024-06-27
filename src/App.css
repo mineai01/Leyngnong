@@ -138,6 +138,22 @@
   width: 100%;
   padding: 50px;
   /* border: 1px solid red; */
+  display: flex;
+  align-self: self-end;
+
   /* position: absolute; */
   bottom: 0;
+}
+
+.container-login {
+  height: 50vh;
+  width: auto;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login-input {
+  padding: 10px;
+  text-align: center;
 }

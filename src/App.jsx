@@ -4,6 +4,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Carousal from "./components/Carousal";
 import "./App.css";
+import Login from "./components/Login";
 
 function App() {
   // [headText, setHeadText] = useState("");
@@ -14,6 +15,7 @@ function App() {
       <Carousal />
       <Header />
       <Content />
+      {/* <Login /> */}
       <Footer />
     </div>
   );
