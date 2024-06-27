@@ -1,10 +1,138 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
-.app{
+/* tag */
+
+/* class */
+.app {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.header {
+  min-height: 140px;
+  padding: 10px;
+  text-align: center;
+
+  /* width: 50vw; */
+  /* background-color: red; */
+
+  /* align-items: center; */
+}
+
+.carousal {
+  min-height: 200px;
+  margin: 50px 0 0;
+}
+
+.container-nav {
+  /* background-color: var(--nav-color); */
+  font-size: 1.2rem;
+  /* font-family: "Merriweather Sans", sans-serif; */
+  height: 50px;
   display: flex;
-  justify-content: center;
+  /* position: fixed; */
+  /* top: 0; */
+}
+
+.container-nav .navbar {
+  justify-content: space-between;
+}
+
+.container-nav .navbar ul li {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.navbar {
+  height: 50px;
+  width: 70%;
+  padding: 5px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* transition: top 0.3s; */
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.content {
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.article {
+  height: auto;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px 4%;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.card {
+  height: 500px;
+  width: 358px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.img-adopt {
+  height: 50%;
+  width: 100%;
+}
+
+.btn-adopt {
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.c-card {
+  height: 200px;
+  width: 70%;
+  margin: auto;
+}
+
+.search-adopt {
+  height: auto;
+  width: 70%;
+  margin: auto;
+}
+
+.btn-search {
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.container {
+  min-height: 300px;
+  /* width: 50vw; */
+  /* background-color: red; */
+
+  /* align-content: center; */
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  bottom: 0;
 }
