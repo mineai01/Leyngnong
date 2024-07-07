@@ -4,7 +4,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Carousal from "./components/Carousal";
 import "./App.css";
-import Login from "./components/Login";
+import Login from "./page/Login";
 
 function App() {
   // [headText, setHeadText] = useState("");
